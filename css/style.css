@@ -1,0 +1,157 @@
+*{ /*CONFIGURAÇÃO DA PAG*/
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    transition: 1s all;
+}
+
+/*INICIO DO HEADER*/
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #855CD3;
+    height: 30vh;
+}
+
+.menu{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background: #36198A;
+    width: 100vw;
+    height: 8vh;
+    transition: 2s all;
+}
+
+.menu > a{ 
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: 1s all;
+}
+
+
+.menu > a:hover{
+    transform: scale(1.1);
+    color:#b997f8;
+}
+/*FIM DO HEADER*/
+
+/*INICIO DO MAIN*/
+.home-1{ /*TELA 1 - CONFIG DA SECTION*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    margin-top: 30px;
+}
+ 
+.home-1 > img{ /*TELA 1- IMG*/
+    width: 500px;
+}
+
+.home-1 > p{ /*TELA 1 - PARAGRAFO*/
+    width: 37vw;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.home-2{ /*TELA 2 - CONFIG DA SECTION*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-home-2 > img{  /*TELA 2 - IMG1*/
+    width: 700px;
+}
+
+.img-home-2{ /*TELA 2 - IMG1 - CONFIG DA DIV*/
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-img-home-2{ /*TELA 2 - TEXTO E IMG 2 - CONFIG DA SECTION*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto-img-home-2 > p{ /*TELA 2 - TEXTO*/
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-right: 50px
+}
+
+.texto-img-home-2 > img{ /*TELA 2 - IMG2*/
+    width: 600px;
+    height: 300px;
+}
+/*FIM DO HOME 2*/
+
+/*FOOTER*/
+.rodape{ /*configurando o footer*/
+    height: 40vh;
+    width: 100vw;
+    background: #1c0371;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{ /*icones do x,instagram e face*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+}
+
+.icons > img{ /*tamanho dos icons*/
+    width: 40px;
+}
+
+.img-footer{ /*logotipo*/
+    margin-right: 70px;
+}
+
+.txt-footer{ /*slogan*/
+    position: relative;
+    right: 80px;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 18px; 
+}
+
+.caixa{ /*background azul*/
+    height: 10vh;
+    background-color: #160354;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+/*FIM DO FOOTER*/
