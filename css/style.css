@@ -221,7 +221,7 @@
    }
   }
 
-  @media only screen and (max-width: 400px){ /*celulares*/
+  @media only screen and (max-width: 466px){ /*celulares*/
     .menu{
         width: 100vw;
         gap: 25px; 

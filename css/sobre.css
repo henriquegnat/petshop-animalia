@@ -185,3 +185,92 @@
     font-weight: 500;
 }
 /*FIM DO FOOTER*/
+
+@media only screen and (max-width: 600px) { /*celulares maiores*/
+    .menu{
+       width: 100vw;
+       gap: 60px; 
+   }
+
+   .menu > a{
+       font-size: 23px;
+   }
+
+   .header{
+    height: auto;
+   }
+
+   .sobre-1 > p{
+    width: 95vw;
+    height: auto;
+    font-size: 23px;
+   }
+
+   .sobre-1{
+    margin-bottom: 50px;
+   }
+
+   .sobre-2{
+    flex-direction: column;
+    width: auto;
+    height: auto;
+   }
+
+    .img-sobre{
+        width: auto;
+        height: auto;
+    }
+
+   .img-sobre > img{ /*TELA 2 - IMG*/
+    width: 350px;
+    margin-left: 0px;
+    }
+
+   .texto-botao{
+    width: auto;
+   }
+   
+   .texto-botao > p{
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 23px;
+   }
+
+   .txt-sobre-final{
+    margin-top: 50px;
+   }
+
+   .txt-sobre{
+    width: 90vw;
+    text-align: center;
+   }
+
+   .rodape{
+    flex-direction: column;
+    height: 60vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .img-footer{
+    margin-right: 0;
+   }
+
+   .txt-footer{
+    position: relative;
+    right: 0;
+    left: 15px;
+   }
+}
+
+@media only screen and (max-width: 466px){ /*celulares*/
+    .menu{
+        width: 100vw;
+        gap: 25px; 
+    }
+    .menu > a{
+        font-size: 20px;
+    }
+}
