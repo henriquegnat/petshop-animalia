@@ -158,6 +158,77 @@
 /*FIM DO FOOTER*/
 
 /*responsividade*/
+
+@media only screen and (max-width: 1015px){ /*correção de alguns bugs*/
+    .home-1{
+        height: auto;
+    }
+
+    .home-2{
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 815px) { /*celulares maiores*/
+    .menu{
+        gap: 80;
+    }
+
+    .home-1{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        margin-left: 50px;
+    }
+    .home-1 > p{
+        width: 90vw;
+        text-align: center;
+        font-size: 23px;
+    }
+
+    .home-2{
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .img-home-2{
+        width: auto;
+    }
+   .img-home-2 > img{
+        width: 600px;
+        height: auto;
+   }
+
+   .texto-img-home-2{
+    flex-direction: column-reverse;
+    margin-left: 50px;
+    width: auto;
+   }
+
+   .texto-img-home-2 > p{
+    width: auto;
+   }
+
+   .rodape{
+    flex-direction: column;
+    height: 60vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .img-footer{
+    margin-right: 0;
+   }
+
+   .txt-footer{
+    position: relative;
+    right: 0;
+    left: 15px;
+   }
+}
+        
 @media only screen and (max-width: 600px) { /*celulares maiores*/
      .menu{
         width: 100vw;
