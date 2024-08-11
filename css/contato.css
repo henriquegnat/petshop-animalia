@@ -144,3 +144,72 @@ input[type=button]:hover{
     font-weight: 500;
 }
 /*FIM DO FOOTER*/
+
+/*responsividade*/
+@media only screen and (max-width: 815px) { /*celulares maiores*/
+    .menu{
+        gap: 80px;
+    }
+
+    .formulario{ /*section do formulario*/
+        flex-direction: column;
+    }
+
+    .fieldset-botao{
+        margin-top: 50px;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rodape{
+        flex-direction: column;
+        height: 60vh;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+       }
+    
+       .img-footer{
+        margin-right: 0;
+       }
+    
+       .txt-footer{
+        position: relative;
+        right: 0;
+        left: 15px;
+       }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .menu{
+        width: 100vw;
+        gap: 75px; 
+    }
+    .menu > a{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 466px){ /*celulares*/
+    .menu{
+        width: 100vw;
+        gap: 25px; 
+    }
+    .menu > a{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 350px){ /*celulares DEBUG*/
+    .menu{
+        width: 100vw;
+        gap: 15px; 
+    }
+    .menu > a{
+        font-size: 15px;
+    }
+}

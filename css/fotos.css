@@ -141,6 +141,7 @@
 }
 /*FIM DO FOOTER*/
 
+/*responsividade*/
 @media only screen and (max-width: 815px) { /*celulares maiores*/
     .menu{
         gap: 80px;
