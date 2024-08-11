@@ -76,7 +76,7 @@
 }
 
 .img-home-2 > img{  /*TELA 2 - IMG1*/
-    width: 650px;
+    width: 550px;
     height: auto;
 }
 
@@ -101,13 +101,14 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-align: center;
+    text-align: left;
     margin-right: 50px
 }
 
 .texto-img-home-2 > img{ /*TELA 2 - IMG2*/
-    width: 450px;
+    width: 345px;
     height: auto;
+    margin-right: 100px;
 }
 /*FIM DO HOME 2*/
 
@@ -198,6 +199,7 @@
    .img-home-2 > img{
         width: 600px;
         height: auto;
+        margin-right: 0px;
    }
 
    .texto-img-home-2{
