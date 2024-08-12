@@ -6,7 +6,7 @@
 }
 
 /*comeco do header*/
-.header{ /*configuracao da div pai de todos do menu*/
+.header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,10 +14,10 @@
     background: #855CD3;
     height: 30vh;
 }
-.header > img{ /*tamanho da logo*/
+.header > img{
     margin-top: 20px;
 }
-.menu{ /*configuraçao da nav menu*/
+.menu{
     display: flex;
     margin-top: 20px;
     justify-content: center;
@@ -29,7 +29,7 @@
     transition: 2s all;
 }
 
-.menu > a{ /*texto menu personalizacao*/
+.menu > a{
     text-decoration: none;
     text-transform: uppercase;
     color: #FFF;
@@ -42,7 +42,7 @@
 }
 
 
-.menu > a:hover{ /*animacao opcoes menu*/
+.menu > a:hover{
     transform: scale(1.1);
     color:#b997f8;
 }
