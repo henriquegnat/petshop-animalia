@@ -15,7 +15,9 @@
     background: #855CD3;
     height: 30vh;
 }
-
+.header > img{
+    margin-top: 20px;
+}
 .menu{
     display: flex;
     margin-top: 20px;
@@ -28,12 +30,12 @@
     transition: 2s all;
 }
 
-.menu > a{ 
+.menu > a{
     text-decoration: none;
     text-transform: uppercase;
     color: #FFF;
     font-family: "Poppins", sans-serif;
-    font-size: 1.563rem;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
