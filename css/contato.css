@@ -1,4 +1,5 @@
-*{ /*config da pag*/
+* {
+    /*config da pag*/
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -6,7 +7,7 @@
 }
 
 /*comeco do header*/
-.header{
+.header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,10 +15,12 @@
     background: #855CD3;
     height: 30vh;
 }
-.header > img{
+
+.header>img {
     margin-top: 20px;
 }
-.menu{
+
+.menu {
     display: flex;
     margin-top: 20px;
     justify-content: center;
@@ -29,7 +32,7 @@
     transition: 2s all;
 }
 
-.menu > a{
+.menu>a {
     text-decoration: none;
     text-transform: uppercase;
     color: #FFF;
@@ -42,46 +45,52 @@
 }
 
 
-.menu > a:hover{
+.menu>a:hover {
     transform: scale(1.1);
-    color:#b997f8;
+    color: #b997f8;
 }
+
 /*fim do header*/
 
 /*comeco do main*/
-.formulario{ /*section do formulario*/
+.formulario {
+    /*section do formulario*/
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70vh;
 }
 
-fieldset{
+fieldset {
     border: none;
 }
 
-input{
+input {
     border-radius: 200px;
     transition: 1s all;
 }
 
-input:hover{
+input:hover {
     background-color: rgb(221, 221, 221);
 }
-.inputs{
+
+.inputs {
     padding: 2vh 10vw;
 }
 
-.fieldset-nome , .fieldset-sobrenome , .fieldset-endereco, .fieldset-telefone{
+.fieldset-nome,
+.fieldset-sobrenome,
+.fieldset-endereco,
+.fieldset-telefone {
     margin-top: 20px;
 }
 
-.fieldset-botao{
+.fieldset-botao {
     margin-top: 30px;
     margin-left: 40vh;
 }
 
-input[type=button]{
+input[type=button] {
     width: 200px;
     height: 50px;
     border-radius: 200px;
@@ -93,14 +102,15 @@ input[type=button]{
     transition: .8s all;
 }
 
-input[type=button]:hover{
+input[type=button]:hover {
     transform: scale(1.02);
     background-color: #b997f8;
     color: #000;
 }
 
 /*inicio footer*/
-.rodape{ /*configurando o footer*/
+.rodape {
+    /*configurando o footer*/
     height: 40vh;
     width: 100vw;
     background: #1c0371;
@@ -110,7 +120,8 @@ input[type=button]:hover{
     align-items: center;
 }
 
-.icons{ /*icones do x,instagram e face*/
+.icons {
+    /*icones do x,instagram e face*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -118,23 +129,27 @@ input[type=button]:hover{
     gap: 20px;
 }
 
-.icons > img{ /*tamanho dos icons*/
+.icons>img {
+    /*tamanho dos icons*/
     width: 40px;
 }
 
-.img-footer{ /*logotipo*/
+.img-footer {
+    /*logotipo*/
     margin-right: 70px;
 }
 
-.txt-footer{ /*slogan*/
+.txt-footer {
+    /*slogan*/
     position: relative;
     right: 80px;
     color: #FFF;
     font-weight: 600;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
-.caixa{ /*background azul*/
+.caixa {
+    /*background azul*/
     height: 10vh;
     background-color: #160354;
     color: #FFF;
@@ -143,19 +158,23 @@ input[type=button]:hover{
     align-items: center;
     font-weight: 500;
 }
+
 /*FIM DO FOOTER*/
 
 /*responsividade*/
-@media only screen and (max-width: 815px) { /*celulares maiores*/
-    .menu{
+@media only screen and (max-width: 815px) {
+
+    /*celulares maiores*/
+    .menu {
         gap: 80px;
     }
 
-    .formulario{ /*section do formulario*/
+    .formulario {
+        /*section do formulario*/
         flex-direction: column;
     }
 
-    .fieldset-botao{
+    .fieldset-botao {
         margin-top: 50px;
         margin-left: 0;
         display: flex;
@@ -163,53 +182,60 @@ input[type=button]:hover{
         align-items: center;
     }
 
-    .rodape{
+    .rodape {
         flex-direction: column;
         height: 60vh;
         width: auto;
         justify-content: center;
         align-items: center;
-       }
-    
-       .img-footer{
+    }
+
+    .img-footer {
         margin-right: 0;
-       }
-    
-       .txt-footer{
+    }
+
+    .txt-footer {
         position: relative;
         right: 0;
         left: 15px;
-       }
+    }
 
 }
 
 @media only screen and (max-width: 600px) {
-    .menu{
+    .menu {
         width: 100vw;
-        gap: 75px; 
+        gap: 75px;
     }
-    .menu > a{
+
+    .menu>a {
         font-size: 20px;
     }
 }
 
-@media only screen and (max-width: 466px){ /*celulares*/
-    .menu{
+@media only screen and (max-width: 466px) {
+
+    /*celulares*/
+    .menu {
         width: 100vw;
-        gap: 25px; 
+        gap: 25px;
     }
-    .menu > a{
+
+    .menu>a {
         font-size: 20px;
     }
 
 }
 
-@media only screen and (max-width: 350px){ /*celulares DEBUG*/
-    .menu{
+@media only screen and (max-width: 350px) {
+
+    /*celulares DEBUG*/
+    .menu {
         width: 100vw;
-        gap: 15px; 
+        gap: 15px;
     }
-    .menu > a{
+
+    .menu>a {
         font-size: 15px;
     }
 }

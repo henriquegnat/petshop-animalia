@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
 }
+
 /*INICIO DO HEADER*/
-.header{
+.header {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,10 +14,12 @@
     background: #855CD3;
     height: 30vh;
 }
-.header > img{
+
+.header>img {
     margin-top: 20px;
 }
-.menu{
+
+.menu {
     display: flex;
     margin-top: 20px;
     justify-content: center;
@@ -28,7 +31,7 @@
     transition: 2s all;
 }
 
-.menu > a{
+.menu>a {
     text-decoration: none;
     text-transform: uppercase;
     color: #FFF;
@@ -41,15 +44,16 @@
 }
 
 
-.menu > a:hover{
+.menu>a:hover {
     transform: scale(1.1);
-    color:#b997f8;
+    color: #b997f8;
 }
 
 /*FIM DO HEADER*/
 
 /*INICIO DO MAIN*/
-.sobre-1{   /*TELA 1*/
+.sobre-1 {
+    /*TELA 1*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,7 +62,8 @@
     gap: 20px;
 }
 
-.sobre-1 > h1{ /*TELA 1 - TITULO*/
+.sobre-1>h1 {
+    /*TELA 1 - TITULO*/
     font-size: 35px;
     font-style: normal;
     font-weight: 800;
@@ -66,7 +71,8 @@
     text-align: left;
 }
 
-.sobre-1 > p{ /*TELA 1 - PARAGRAFO*/
+.sobre-1>p {
+    /*TELA 1 - PARAGRAFO*/
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -75,24 +81,28 @@
     text-align: center;
 }
 
-.sobre-2{ /*TELA 2*/
+.sobre-2 {
+    /*TELA 2*/
     display: flex;
     height: 80vh;
 }
 
-.img-sobre{ /*TELA 2 - DIV-IMG (CONFIG)*/
+.img-sobre {
+    /*TELA 2 - DIV-IMG (CONFIG)*/
     width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img-sobre > img{ /*TELA 2 - IMG*/
+.img-sobre>img {
+    /*TELA 2 - IMG*/
     width: 500px;
     margin-left: 200px;
 }
 
-.texto-botao{ /*TELA 2 - TEXTO E BOTÃO*/
+.texto-botao {
+    /*TELA 2 - TEXTO E BOTÃO*/
     width: 50vw;
     display: flex;
     justify-content: center;
@@ -101,12 +111,14 @@
     gap: 40px;
 }
 
-.texto-botao > p{ /*TELA 2 - TEXTO E BOTÃO - PARAGRAFO*/
+.texto-botao>p {
+    /*TELA 2 - TEXTO E BOTÃO - PARAGRAFO*/
     width: 40vw;
     font-size: 25px;
 }
 
-.texto-botao > button{ /*TELA 2 - TEXTO E BOTÃO - BOTÃO*/
+.texto-botao>button {
+    /*TELA 2 - TEXTO E BOTÃO - BOTÃO*/
     width: 300px;
     height: 70px;
     border-radius: 200px;
@@ -118,13 +130,15 @@
     transition: .8s all;
 }
 
-.texto-botao > button:hover{ /*TELA 2 - TEXTO E BOTÃO - BOTAO ANIMAÇÃO*/
+.texto-botao>button:hover {
+    /*TELA 2 - TEXTO E BOTÃO - BOTAO ANIMAÇÃO*/
     transform: scale(1.02);
     background-color: #b997f8;
     color: #000;
 }
 
-.txt-sobre{ /*TELA 2 - TEXTO FINAL (CLASS)*/
+.txt-sobre {
+    /*TELA 2 - TEXTO FINAL (CLASS)*/
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
@@ -133,15 +147,18 @@
     text-align: center;
 }
 
-.txt-sobre-final{ /*TELA 2 - TEXTO FINAL (SECTION)*/
+.txt-sobre-final {
+    /*TELA 2 - TEXTO FINAL (SECTION)*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /*FIM DO MAIN*/
 
 /*inicio footer*/
-.rodape{ /*configurando o footer*/
+.rodape {
+    /*configurando o footer*/
     height: 40vh;
     width: 100vw;
     background: #1c0371;
@@ -151,7 +168,8 @@
     align-items: center;
 }
 
-.icons{ /*icones do x,instagram e face*/
+.icons {
+    /*icones do x,instagram e face*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,23 +177,27 @@
     gap: 20px;
 }
 
-.icons > img{ /*tamanho dos icons*/
+.icons>img {
+    /*tamanho dos icons*/
     width: 40px;
 }
 
-.img-footer{ /*logotipo*/
+.img-footer {
+    /*logotipo*/
     margin-right: 70px;
 }
 
-.txt-footer{ /*slogan*/
+.txt-footer {
+    /*slogan*/
     position: relative;
     right: 80px;
     color: #FFF;
     font-weight: 600;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
-.caixa{ /*background azul*/
+.caixa {
+    /*background azul*/
     height: 10vh;
     background-color: #160354;
     color: #FFF;
@@ -184,93 +206,100 @@
     align-items: center;
     font-weight: 500;
 }
+
 /*FIM DO FOOTER*/
 
-@media only screen and (max-width: 600px) { /*celulares maiores*/
-    .menu{
-       width: 100vw;
-       gap: 60px; 
-   }
+@media only screen and (max-width: 600px) {
 
-   .menu > a{
-       font-size: 20px;
-   }
+    /*celulares maiores*/
+    .menu {
+        width: 100vw;
+        gap: 60px;
+    }
 
-   .header{
-    height: auto;
-   }
+    .menu>a {
+        font-size: 20px;
+    }
 
-   .sobre-1 > p{
-    width: 95vw;
-    height: auto;
-    font-size: 23px;
-   }
+    .header {
+        height: auto;
+    }
 
-   .sobre-1{
-    margin-bottom: 50px;
-   }
+    .sobre-1>p {
+        width: 95vw;
+        height: auto;
+        font-size: 23px;
+    }
 
-   .sobre-2{
-    flex-direction: column;
-    width: auto;
-    height: auto;
-   }
+    .sobre-1 {
+        margin-bottom: 50px;
+    }
 
-    .img-sobre{
+    .sobre-2 {
+        flex-direction: column;
         width: auto;
         height: auto;
     }
 
-   .img-sobre > img{ /*TELA 2 - IMG*/
-    width: 350px;
-    margin-left: 0px;
+    .img-sobre {
+        width: auto;
+        height: auto;
     }
 
-   .texto-botao{
-    width: auto;
-   }
-   
-   .texto-botao > p{
-    width: 90vw;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 23px;
-   }
+    .img-sobre>img {
+        /*TELA 2 - IMG*/
+        width: 350px;
+        margin-left: 0px;
+    }
 
-   .txt-sobre-final{
-    margin-top: 50px;
-   }
+    .texto-botao {
+        width: auto;
+    }
 
-   .txt-sobre{
-    width: 90vw;
-    text-align: center;
-   }
+    .texto-botao>p {
+        width: 90vw;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 23px;
+    }
 
-   .rodape{
-    flex-direction: column;
-    height: 60vh;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-   }
+    .txt-sobre-final {
+        margin-top: 50px;
+    }
 
-   .img-footer{
-    margin-right: 0;
-   }
+    .txt-sobre {
+        width: 90vw;
+        text-align: center;
+    }
 
-   .txt-footer{
-    position: relative;
-    right: 0;
-    left: 15px;
-   }
+    .rodape {
+        flex-direction: column;
+        height: 60vh;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-footer {
+        margin-right: 0;
+    }
+
+    .txt-footer {
+        position: relative;
+        right: 0;
+        left: 15px;
+    }
 }
 
-@media only screen and (max-width: 466px){ /*celulares*/
-    .menu{
+@media only screen and (max-width: 466px) {
+
+    /*celulares*/
+    .menu {
         width: 100vw;
-        gap: 25px; 
+        gap: 25px;
     }
-    .menu > a{
+
+    .menu>a {
         font-size: 20px;
     }
 }

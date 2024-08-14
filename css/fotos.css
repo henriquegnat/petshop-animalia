@@ -1,4 +1,5 @@
-*{ /*config da pag*/
+* {
+    /*config da pag*/
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -6,7 +7,8 @@
 }
 
 /*comeco do header*/
-.header{ /*configuracao da div pai de todos do menu*/
+.header {
+    /*configuracao da div pai de todos do menu*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,10 +16,14 @@
     background: #855CD3;
     height: 30vh;
 }
-.header > img{ /*tamanho da logo*/
+
+.header>img {
+    /*tamanho da logo*/
     margin-top: 20px;
 }
-.menu{ /*configuraçao da nav menu*/
+
+.menu {
+    /*configuraçao da nav menu*/
     display: flex;
     margin-top: 20px;
     justify-content: center;
@@ -29,7 +35,8 @@
     transition: 2s all;
 }
 
-.menu > a{ /*texto menu personalizacao*/
+.menu>a {
+    /*texto menu personalizacao*/
     text-decoration: none;
     text-transform: uppercase;
     color: #FFF;
@@ -42,61 +49,75 @@
 }
 
 
-.menu > a:hover{ /*animacao opcoes menu*/
+.menu>a:hover {
+    /*animacao opcoes menu*/
     transform: scale(1.1);
-    color:#b997f8;
+    color: #b997f8;
 }
+
 /*fim do header*/
 
 /*comeco do main*/
 
-.galeria{ /*tela1 - div de todas as fotos*/
+.galeria {
+    /*tela1 - div de todas as fotos*/
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
 }
 
-.foto1 > img{ /*tela1 - foto maior*/
+.foto1>img {
+    /*tela1 - foto maior*/
     width: 490px;
 }
 
-.gallery { /*tela1 - fotos menores*/
+.gallery {
+    /*tela1 - fotos menores*/
     display: grid;
     grid-template-columns: repeat(2, 250px);
     grid-template-rows: repeat(2, auto);
-    gap: 10px; ;
+    gap: 10px;
+    ;
 }
 
-.gallery > img{ /*tela1 - tamanho das fotos menores*/
+.gallery>img {
+    /*tela1 - tamanho das fotos menores*/
     width: 220px;
 }
 
-.galeria2{ /*tela2 - div de todas as fotos*/
+.galeria2 {
+    /*tela2 - div de todas as fotos*/
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     gap: 150px;
 }
-.gallery2{ /*tela2 - fotos menores*/
+
+.gallery2 {
+    /*tela2 - fotos menores*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.gallery2 > img{ /*tela2 - fotos menores tamanho*/
+.gallery2>img {
+    /*tela2 - fotos menores tamanho*/
     width: 300px;
 }
 
-.foto2 > img{ /*tela2 - foto maior tamanho*/
+.foto2>img {
+    /*tela2 - foto maior tamanho*/
     width: 600px;
 }
+
 /*fim do main*/
 
 /*inicio footer*/
-.rodape{ /*configurando o footer*/
+.rodape {
+    /*configurando o footer*/
     height: 40vh;
     width: 100vw;
     background: #1c0371;
@@ -106,7 +127,8 @@
     align-items: center;
 }
 
-.icons{ /*icones do x,instagram e face*/
+.icons {
+    /*icones do x,instagram e face*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,23 +136,27 @@
     gap: 20px;
 }
 
-.icons > img{ /*tamanho dos icons*/
+.icons>img {
+    /*tamanho dos icons*/
     width: 40px;
 }
 
-.img-footer{ /*logotipo*/
+.img-footer {
+    /*logotipo*/
     margin-right: 70px;
 }
 
-.txt-footer{ /*slogan*/
+.txt-footer {
+    /*slogan*/
     position: relative;
     right: 80px;
     color: #FFF;
     font-weight: 600;
-    font-size: 18px; 
+    font-size: 18px;
 }
 
-.caixa{ /*background azul*/
+.caixa {
+    /*background azul*/
     height: 10vh;
     background-color: #160354;
     color: #FFF;
@@ -139,15 +165,18 @@
     align-items: center;
     font-weight: 500;
 }
+
 /*FIM DO FOOTER*/
 
 /*responsividade*/
-@media only screen and (max-width: 815px) { /*celulares maiores*/
-    .menu{
+@media only screen and (max-width: 815px) {
+
+    /*celulares maiores*/
+    .menu {
         gap: 80px;
     }
 
-    .gallery{
+    .gallery {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -155,24 +184,25 @@
         width: auto;
     }
 
-    .gallery > img{
+    .gallery>img {
         width: 360px;
     }
-    .galeria{
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        width: auto;   
-    }
 
-    .gallery2{
+    .galeria {
         display: flex;
         flex-direction: column;
         height: auto;
         width: auto;
     }
 
-    .galeria2{
+    .gallery2 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+
+    .galeria2 {
         display: flex;
         flex-direction: column;
         margin-top: 200px;
@@ -180,56 +210,61 @@
         height: auto;
     }
 
-    .gallery2 > img{
+    .gallery2>img {
         width: 400px;
     }
 
-    .rodape{
+    .rodape {
         flex-direction: column;
         height: 60vh;
         width: auto;
         justify-content: center;
         align-items: center;
-       }
-    
-       .img-footer{
+    }
+
+    .img-footer {
         margin-right: 0;
-       }
-    
-       .txt-footer{
+    }
+
+    .txt-footer {
         position: relative;
         right: 0;
         left: 15px;
-       }
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    .menu{
+    .menu {
         width: 100vw;
-        gap: 75px; 
+        gap: 75px;
     }
-    .menu > a{
+
+    .menu>a {
         font-size: 20px;
     }
 
-    .foto2 > img{
+    .foto2>img {
         width: 540px;
     }
 }
 
-@media only screen and (max-width: 466px){ /*celulares*/
-    .menu{
+@media only screen and (max-width: 466px) {
+
+    /*celulares*/
+    .menu {
         width: 100vw;
-        gap: 25px; 
+        gap: 25px;
     }
-    .menu > a{
+
+    .menu>a {
         font-size: 20px;
     }
 
-    .foto1 > img{
+    .foto1>img {
         width: 480px;
     }
-    .foto2 > img{
+
+    .foto2>img {
         width: 480px;
     }
 }
