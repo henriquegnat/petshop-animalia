@@ -2,10 +2,12 @@
     /*config da pag*/
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     font-family: "Poppins", sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
 /*comeco do header*/
 .header {
     display: flex;
@@ -18,6 +20,8 @@
 
 .header>img {
     margin-top: 20px;
+    width: 148px;
+    height: 130px;
 }
 
 .menu {
@@ -59,6 +63,9 @@
     justify-content: center;
     align-items: center;
     height: 70vh;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
 }
 
 fieldset {
@@ -66,8 +73,9 @@ fieldset {
 }
 
 input {
-    border-radius: 200px;
     transition: 1s all;
+    margin-top: 5px;
+    font-size: 15px;
 }
 
 input:hover {
@@ -82,24 +90,25 @@ input:hover {
 .fieldset-sobrenome,
 .fieldset-endereco,
 .fieldset-telefone {
-    margin-top: 20px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .fieldset-botao {
     margin-top: 30px;
-    margin-left: 40vh;
-}
+
+}   
 
 input[type=button] {
-    width: 200px;
-    height: 50px;
-    border-radius: 200px;
+    padding: 1.5rem 5rem;
+    border-radius: 50px;
     border: 5px #000;
     background: #5130A2;
     color: #FFF;
     font-weight: bold;
     font-size: 15px;
     transition: .8s all;
+    border: #000 solid 2px;
 }
 
 input[type=button]:hover {
